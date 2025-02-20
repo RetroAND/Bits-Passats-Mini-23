@@ -1079,7 +1079,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "#PWR"
+			(property "Reference" "#PWR056"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -1088,12 +1088,13 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "VEE"
-				(at 0 3.81 0)
+			(property "Value" "VBB"
+				(at -0.0001 3.81 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -1114,7 +1115,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"VEE\""
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1162,7 +1163,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0) hide
-					(name "VEE"
+					(name "VBB"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1740,7 +1741,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VEE"
+		(property "Value" "VBB"
 			(at 80.01 81.2799 90)
 			(effects
 				(font
